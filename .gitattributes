@@ -1,0 +1,12 @@
+# Text file normalization
+# Do not edit manually
+build/* linguist-vendored
+*.py linguist-detectable
+*.md linguist-documentation
+**/*.py linguist-detectable
+*.htm linguist-vendored
+dist/* linguist-vendored   
+
+*.yml linguist-detectable=false
+* text=auto eol=lf
+*.png binary
